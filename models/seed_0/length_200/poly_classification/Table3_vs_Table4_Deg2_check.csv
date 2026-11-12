@@ -1,0 +1,10 @@
+﻿dataset,Table4_new,Table3_current
+multiplicative_low,79.0% +- 0.4%,68.6% ± 1.1%
+multiplicative_medium,79.0% +- 0.9%,69.4% ± 1.4%
+multiplicative_high,78.4% +- 0.6%,67.4% ± 0.7%
+multiplicative_outlier_low,78.1% +- 1.6%,68.5% ± 1.1%
+multiplicative_outlier_medium,78.2% +- 1.0%,66.7% ± 1.6%
+multiplicative_outlier_high,76.6% +- 1.5%,64.5% ± 1.3%
+additive_multiplicative_low,78.7% +- 0.5%,69.6% ± 2.4%
+additive_multiplicative_medium,78.8% +- 0.7%,68.2% ± 1.0%
+additive_multiplicative_high,79.1% +- 0.6%,66.0% ± 0.9%

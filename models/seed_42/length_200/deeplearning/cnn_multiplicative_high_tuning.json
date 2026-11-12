@@ -1,0 +1,252 @@
+{
+    "best_params": {
+        "filters": 32,
+        "kernel_size": 5,
+        "num_layers": 3,
+        "dropout_rate": 0.3,
+        "lr": 0.001
+    },
+    "best_acc": 0.996999979019165,
+    "all_results": [
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 5,
+                "num_layers": 3,
+                "dropout_rate": 0.3,
+                "lr": 0.0001
+            },
+            "test_acc": 0.9959999918937683,
+            "val_acc": 0.987500011920929,
+            "train_acc": 0.9961110949516296
+        },
+        {
+            "params": {
+                "filters": 32,
+                "kernel_size": 5,
+                "num_layers": 3,
+                "dropout_rate": 0.3,
+                "lr": 0.001
+            },
+            "test_acc": 0.996999979019165,
+            "val_acc": 0.9925000071525574,
+            "train_acc": 0.9991666674613953
+        },
+        {
+            "params": {
+                "filters": 32,
+                "kernel_size": 5,
+                "num_layers": 2,
+                "dropout_rate": 0.3,
+                "lr": 0.0001
+            },
+            "test_acc": 0.8939999938011169,
+            "val_acc": 0.8824999928474426,
+            "train_acc": 0.8386111259460449
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 3,
+                "num_layers": 2,
+                "dropout_rate": 0.2,
+                "lr": 0.001
+            },
+            "test_acc": 0.9419999718666077,
+            "val_acc": 0.9549999833106995,
+            "train_acc": 0.9366666674613953
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 5,
+                "num_layers": 2,
+                "dropout_rate": 0.3,
+                "lr": 0.0001
+            },
+            "test_acc": 0.9390000104904175,
+            "val_acc": 0.9399999976158142,
+            "train_acc": 0.9094444513320923
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 5,
+                "num_layers": 2,
+                "dropout_rate": 0.2,
+                "lr": 0.001
+            },
+            "test_acc": 0.9810000061988831,
+            "val_acc": 0.9800000190734863,
+            "train_acc": 0.9730555415153503
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 3,
+                "num_layers": 3,
+                "dropout_rate": 0.3,
+                "lr": 0.001
+            },
+            "test_acc": 0.9829999804496765,
+            "val_acc": 0.9900000095367432,
+            "train_acc": 0.9927777647972107
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 3,
+                "num_layers": 3,
+                "dropout_rate": 0.2,
+                "lr": 0.001
+            },
+            "test_acc": 0.9800000190734863,
+            "val_acc": 0.9900000095367432,
+            "train_acc": 0.9980555772781372
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 5,
+                "num_layers": 3,
+                "dropout_rate": 0.2,
+                "lr": 0.0001
+            },
+            "test_acc": 0.9890000224113464,
+            "val_acc": 0.987500011920929,
+            "train_acc": 0.9988889098167419
+        },
+        {
+            "params": {
+                "filters": 32,
+                "kernel_size": 3,
+                "num_layers": 2,
+                "dropout_rate": 0.2,
+                "lr": 0.001
+            },
+            "test_acc": 0.9470000267028809,
+            "val_acc": 0.9574999809265137,
+            "train_acc": 0.9300000071525574
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 5,
+                "num_layers": 2,
+                "dropout_rate": 0.3,
+                "lr": 0.001
+            },
+            "test_acc": 0.9760000109672546,
+            "val_acc": 0.9775000214576721,
+            "train_acc": 0.9683333039283752
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 5,
+                "num_layers": 3,
+                "dropout_rate": 0.3,
+                "lr": 0.001
+            },
+            "test_acc": 0.9929999709129333,
+            "val_acc": 0.9925000071525574,
+            "train_acc": 1.0
+        },
+        {
+            "params": {
+                "filters": 32,
+                "kernel_size": 3,
+                "num_layers": 2,
+                "dropout_rate": 0.3,
+                "lr": 0.001
+            },
+            "test_acc": 0.9449999928474426,
+            "val_acc": 0.949999988079071,
+            "train_acc": 0.9155555367469788
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 3,
+                "num_layers": 3,
+                "dropout_rate": 0.2,
+                "lr": 0.0001
+            },
+            "test_acc": 0.9710000157356262,
+            "val_acc": 0.987500011920929,
+            "train_acc": 0.9863888621330261
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 3,
+                "num_layers": 3,
+                "dropout_rate": 0.3,
+                "lr": 0.0001
+            },
+            "test_acc": 0.9729999899864197,
+            "val_acc": 0.9750000238418579,
+            "train_acc": 0.9822221994400024
+        },
+        {
+            "params": {
+                "filters": 32,
+                "kernel_size": 5,
+                "num_layers": 3,
+                "dropout_rate": 0.2,
+                "lr": 0.001
+            },
+            "test_acc": 0.9940000176429749,
+            "val_acc": 0.9900000095367432,
+            "train_acc": 0.9994444251060486
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 3,
+                "num_layers": 2,
+                "dropout_rate": 0.2,
+                "lr": 0.0001
+            },
+            "test_acc": 0.8849999904632568,
+            "val_acc": 0.8924999833106995,
+            "train_acc": 0.8613888621330261
+        },
+        {
+            "params": {
+                "filters": 64,
+                "kernel_size": 5,
+                "num_layers": 2,
+                "dropout_rate": 0.2,
+                "lr": 0.0001
+            },
+            "test_acc": 0.9459999799728394,
+            "val_acc": 0.9624999761581421,
+            "train_acc": 0.9266666769981384
+        },
+        {
+            "params": {
+                "filters": 32,
+                "kernel_size": 5,
+                "num_layers": 3,
+                "dropout_rate": 0.3,
+                "lr": 0.0001
+            },
+            "test_acc": 0.9879999756813049,
+            "val_acc": 0.987500011920929,
+            "train_acc": 0.9838888645172119
+        },
+        {
+            "params": {
+                "filters": 32,
+                "kernel_size": 5,
+                "num_layers": 2,
+                "dropout_rate": 0.3,
+                "lr": 0.001
+            },
+            "test_acc": 0.9769999980926514,
+            "val_acc": 0.9750000238418579,
+            "train_acc": 0.9580555558204651
+        }
+    ]
+}

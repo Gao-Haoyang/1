@@ -1,0 +1,7 @@
+﻿Setting,Training Data,Accuracy,vs RF baseline,vs Full-data fine-tune
+RF-catch22,672 real training samples,92.27% +- 0.51%,--,-3.56%
+Zero-shot CNN,0 real labels (synthetic only),94.67% +- 0.70%,+2.40%,-1.16%
+Few-shot CNN,224 real training samples,95.82% +- 0.92%,+3.56%,--
+Full-data fine-tuned CNN,672 real training samples,95.82% +- 0.67%,+3.56%,--
+Pretrained CNN (all layers),672 real training samples,96.18% +- 0.92%,+3.91%,+0.36%
+Scratch CNN,672 real training samples,94.58% +- 0.73%,+2.31%,-1.24%

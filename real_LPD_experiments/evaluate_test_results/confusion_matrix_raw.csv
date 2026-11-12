@@ -1,0 +1,6 @@
+﻿,Linear Increasing,Linear Decreasing,Single-Valley,Single-Peak,Multi-Peak
+Linear Increasing,94,0,0,0,0
+Linear Decreasing,0,104,1,2,1
+Single-Valley,1,2,4,0,1
+Single-Peak,1,0,0,9,0
+Multi-Peak,1,1,0,0,3

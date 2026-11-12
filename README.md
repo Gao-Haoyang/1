@@ -49,6 +49,13 @@ The repository is organized into five main components:
 │   ├── length_50_100/
 │   └── length_200/
 │
+├── best_experiment_configs/
+│   ├── seed_0/
+│   ├── seed_1/
+│   ├── seed_2/
+│   ├── seed_3/
+│   └── seed_42/
+│
 └── README.md
 ```
 

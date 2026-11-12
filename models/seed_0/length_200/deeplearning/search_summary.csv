@@ -1,0 +1,4 @@
+dataset,cnn_best_acc,inception_best_acc
+additive_multiplicative_low,1.0,1.0
+additive_multiplicative_medium,0.9990000128746033,0.9959999918937683
+additive_multiplicative_high,0.9900000095367432,0.9829999804496765

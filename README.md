@@ -1,4 +1,4 @@
-# Time-Series Classification Experiments
+# A Comprehensive Evaluation of Shape Classification Methods for Population Time Series: From Synthetic Data to the Living Planet Database
 
 ## 1. Project Overview
 

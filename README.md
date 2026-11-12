@@ -8,11 +8,11 @@ The project focuses on evaluating classification performance under different dat
 
 The repository is organized into five main components:
 
-- `data/`: Generated time-series datasets.
 - `data_generation/`: Scripts for generating synthetic datasets.
 - `models/`: Model training and classification experiments.
 - `real_LPD_experiments/`: Experiments using real-world LPD data.
 - `split_records/`: Records of dataset splitting.
+- `best_experiment_configs/`: The selected configuration for the final real-world time-series experiments
 
 ## 2. Repository Structure
 

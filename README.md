@@ -16,15 +16,7 @@ The repository is organized into five main components:
 
 ## 2. Repository Structure
 
-```text
 .
-├── data/
-│   ├── seed_0/
-│   ├── seed_1/
-│   ├── seed_2/
-│   ├── seed_3/
-│   └── seed_42/
-│
 ├── data_generation/
 │   ├── seed_0/
 │   ├── seed_1/

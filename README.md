@@ -212,6 +212,17 @@ The corresponding results are stored in `unified_real_data_benchmark_results/`, 
 - `Table12_FINAL.xlsx`
 - `Table12_seed_level_results.csv`
 - `fixed_few_shot_224_samples.csv`
+- 
+### 6.5 Selected Configuration for Real-World Time-Series Experiments
+The repository provides the selected experimental configuration used in the final real-world time-series classification experiments.
+
+The configuration file records the parameter settings adopted for the corresponding experiments and serves as a reference for reproducing the reported results.
+
+The configuration is stored in:
+
+real_LPD_experiments/best_experiment_configs/
+
+This file documents the selected configuration for the real-world experiments. Other experimental settings can be found in the corresponding training and evaluation scripts.
 
 ## 7. Experimental Workflow
 
@@ -266,7 +277,8 @@ Some scripts may contain environment-specific file paths. These paths should be 
 
 - The `.idea/` directory contains IDE-related configuration files and is not required for running the experiments.
 - The exact data-column definitions and class-label encoding should be checked in the corresponding data-generation and training scripts.
-- The parameter settings and model configurations should be taken from the original experiment scripts.
+- The selected configuration for the final real-world time-series experiments is provided in best_experiment_configs/.
+- Other experimental parameter settings can be checked in the corresponding data-generation, training, and evaluation scripts.
 - The result files are provided for reference and experimental analysis.
 
 ## 11. Contact

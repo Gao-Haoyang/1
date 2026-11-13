@@ -1,0 +1,10 @@
+dataset,strength,additive_std_ratio,ar_rho,ar_std_ratio,multiplicative_log_std,outlier_prob
+multiplicative_low,low,0.01,0.5,0.01,0.05,0.005
+multiplicative_medium,medium,0.04,0.7,0.04,0.1,0.01
+multiplicative_high,high,0.1,0.9,0.1,0.2,0.02
+multiplicative_outlier_low,low,0.01,0.5,0.01,0.05,0.005
+multiplicative_outlier_medium,medium,0.04,0.7,0.04,0.1,0.01
+multiplicative_outlier_high,high,0.1,0.9,0.1,0.2,0.02
+additive_multiplicative_low,low,0.01,0.5,0.01,0.05,0.005
+additive_multiplicative_medium,medium,0.04,0.7,0.04,0.1,0.01
+additive_multiplicative_high,high,0.1,0.9,0.1,0.2,0.02

@@ -72,17 +72,17 @@ Each synthetic-data experiment is organized by random seed and sequence length.
 The data/ directory currently provides the synthetic time-series datasets generated using random seed 0.
 The experiments were designed using five random seeds:
 
-- `Seed 0
-- `Seed 1
-- `Seed 2
-- `Seed 3
-- `Seed 42
+- Seed 0
+- Seed 1
+- Seed 2
+- Seed 3
+- Seed 42
 
 Three sequence-length settings were considered:
 
-- `length_50
-- `length_50_100
-- `length_200
+- length_50
+- length_50_100
+- length_200
 
 To keep the repository size manageable, only the datasets generated with seed 0 are currently included in the repository. The datasets for the other random seeds are not included, but can be regenerated using the provided data generation scripts.
 

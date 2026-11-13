@@ -18,6 +18,9 @@ The repository is organized into five main components:
 
 ```text
 .
+├── data/
+│   ├── seed_0/
+│
 ├── data_generation/
 │   ├── seed_0/
 │   ├── seed_1/
@@ -65,35 +68,38 @@ Each synthetic-data experiment is organized by random seed and sequence length.
 
 ### 3.1 Data Organization
 
-The `data/` directory stores the generated time-series datasets.
+The data/ directory currently provides the synthetic time-series datasets generated using random seed 0.
+The experiments were designed using five random seeds:
 
-Five random seeds are used:
+- `Seed 0
+- `Seed 1
+- `Seed 2
+- `Seed 3
+- `Seed 42
+- 
+Three sequence-length settings were considered:
 
-- Seed 0
-- Seed 1
-- Seed 2
-- Seed 3
-- Seed 42
+- `length_50
+- `length_50_100
+- `length_200
 
-For each seed, datasets are organized according to three sequence-length settings:
-
-- `length_50`
-- `length_50_100`
-- `length_200`
+To keep the repository size manageable, only the datasets generated with seed 0 are currently included in the repository. The datasets for the other random seeds are not included, but can be regenerated using the provided data generation scripts.
 
 ### 3.2 Noise Configurations
 
-The generated datasets include different noise configurations:
+The synthetic datasets cover nine noise configurations, obtained by combining three noise types with three noise intensity levels:
 
 - Multiplicative noise: low, medium, and high.
 - Multiplicative noise with outliers: low, medium, and high.
 - Additive and multiplicative noise: low, medium, and high.
 
-Each configuration is stored as a CSV file. The corresponding `strength_metadata.csv` files record noise-strength information.
+Each configuration is stored as a CSV file. The corresponding strength_metadata.csv files record the noise-strength information.
+
+Each CSV file contains the time-series observations and their corresponding sample identifiers, time-step identifiers, and class labels.
 
 ### 3.3 Data Generation Scripts
 
-The `data_generation/` directory contains the scripts used to generate synthetic datasets.
+The data_generation/ directory contains the scripts used to generate synthetic datasets.
 
 The main scripts are:
 
@@ -101,7 +107,9 @@ The main scripts are:
 - `generate_length_50_100.py`
 - `generate_length_200.py`
 
-These scripts are organized by random seed.
+These scripts implement the synthetic data generation procedures for the corresponding sequence-length settings. The random seed can be specified in the scripts to generate datasets under different random conditions.
+
+The provided scripts facilitate the reproduction of the synthetic datasets and allow users to generate additional datasets beyond those currently included in the repository.
 
 ## 4. Classification Models
 

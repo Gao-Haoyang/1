@@ -8,6 +8,7 @@ The project focuses on evaluating classification performance under different dat
 
 The repository is organized into five main components:
 
+- `data/`: Generated time-series datasets.
 - `data_generation/`: Scripts for generating synthetic datasets.
 - `models/`: Model training and classification experiments.
 - `real_LPD_experiments/`: Experiments using real-world LPD data.
@@ -76,7 +77,7 @@ The experiments were designed using five random seeds:
 - `Seed 2
 - `Seed 3
 - `Seed 42
-- 
+
 Three sequence-length settings were considered:
 
 - `length_50

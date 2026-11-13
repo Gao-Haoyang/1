@@ -179,11 +179,11 @@ The `real_LPD_experiments/` directory contains experiments based on real-world L
 
 The main data files include:
 
-- `LPD.csv`
-- `LPD_with_split.csv`
-- `real_data_split.csv`
+- `LPD.csv`: The original real-world LPD data, including the corresponding human annotation labels.
+- `LPD_with_split.csv` : The LPD data with dataset split information.
+- `real_data_split.csv` : The corresponding real-data split records.
 
-The directory also contains scripts for data splitting, model training, and evaluation.
+The LPD.csv file provides the human annotation labels used in the real-world experiments, while the split-related files document the data partitioning. The directory also contains scripts for data splitting, model training, and evaluation.
 
 ### 6.2 Validation Experiments
 
